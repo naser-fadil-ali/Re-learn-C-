@@ -1,0 +1,10 @@
+{
+  "name": "cpp-dev",
+  "image": "mcr.microsoft.com/vscode/devcontainers/cpp:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "vncPassword": "123456"
+    }
+  },
+  "postCreateCommand": "sudo apt update && sudo apt install -y cmake ninja-build build-essential gdb clang-format clang-tidy libglfw3-dev libglew-dev libglm-dev libsdl2-dev mesa-utils python3 python3-pip"
+}
