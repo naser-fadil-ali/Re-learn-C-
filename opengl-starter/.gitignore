@@ -1,0 +1,10 @@
+build/
+/.vs/
+*.o
+*.obj
+*.exe
+*.log
+*.user
+*.swp
+*.swo
+*.DS_Store
